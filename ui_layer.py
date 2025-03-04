@@ -62,12 +62,14 @@ async def _handle_register(username: str, password: str, confirm: str):
      result = await validate_register(username, password, confirm)
      ui.notify(result['info'], type=result['status'])
 
+
 # =====================================
 # API: 获取当前登录用户
 # Example: localhost:8080/api/getuser?username=abc
 @app.get('/api/getuser')
 async def api_current_user(username: str):
     return await get_user(username)
+
 
 # =====================================
 tab_value = '登录'  # 默认控制选项卡状态
