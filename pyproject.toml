@@ -1,0 +1,20 @@
+[project]
+name = "nicegui-simpletesta"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "xipurewhite",email = "1739013005@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "nicegui (==2.11.1)",
+    "sqlalchemy (==2.0.38)",
+    "uvicorn (==0.34.0)",
+    "aiosqlite (==0.21.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

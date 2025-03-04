@@ -1,0 +1,4 @@
+nicegui==2.11.1
+SQLAlchemy==2.0.38
+uvicorn==0.34.0
+aiosqlite==0.21.0
