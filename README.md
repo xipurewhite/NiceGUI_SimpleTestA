@@ -26,27 +26,20 @@
 
 + python 2.12.8
 + poetry 2.1.1
-+ 
 
 ## 本地运行
 
-**1.**
+**1.安装依赖**
 
 ```
 poetry install --no-root
 ```
 
-**2.**
+**2.运行测试**
 
 ```
 poetry run python ui_layer.py
 ```
-
-
-
-
-
-
 
 ## 基于Docker部署
 
